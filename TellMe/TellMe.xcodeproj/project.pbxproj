@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04FC25371BBCFDB2000DF541 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC25361BBCFDB2000DF541 /* main.m */; };
+		04FC253A1BBCFDB2000DF541 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC25391BBCFDB2000DF541 /* AppDelegate.m */; };
+		04FC253D1BBCFDB2000DF541 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC253C1BBCFDB2000DF541 /* ViewController.m */; };
+		04FC25401BBCFDB2000DF541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FC253E1BBCFDB2000DF541 /* Main.storyboard */; };
+		04FC25421BBCFDB2000DF541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FC25411BBCFDB2000DF541 /* Assets.xcassets */; };
+		04FC25451BBCFDB3000DF541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FC25431BBCFDB3000DF541 /* LaunchScreen.storyboard */; };
+		04FC25501BBCFDB3000DF541 /* TellMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC254F1BBCFDB3000DF541 /* TellMeTests.m */; };
+		04FC255B1BBCFDB3000DF541 /* TellMeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC255A1BBCFDB3000DF541 /* TellMeUITests.m */; };
+		04FC25691BBCFE25000DF541 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC25681BBCFE25000DF541 /* Person.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FC254C1BBCFDB3000DF541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FC252A1BBCFDB2000DF541 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FC25311BBCFDB2000DF541;
+			remoteInfo = TellMe;
+		};
+		04FC25571BBCFDB3000DF541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FC252A1BBCFDB2000DF541 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FC25311BBCFDB2000DF541;
+			remoteInfo = TellMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04FC25321BBCFDB2000DF541 /* TellMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TellMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FC25361BBCFDB2000DF541 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04FC25381BBCFDB2000DF541 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04FC25391BBCFDB2000DF541 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04FC253B1BBCFDB2000DF541 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04FC253C1BBCFDB2000DF541 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04FC253F1BBCFDB2000DF541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04FC25411BBCFDB2000DF541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04FC25441BBCFDB3000DF541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04FC25461BBCFDB3000DF541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FC254B1BBCFDB3000DF541 /* TellMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TellMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FC254F1BBCFDB3000DF541 /* TellMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TellMeTests.m; sourceTree = "<group>"; };
+		04FC25511BBCFDB3000DF541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FC25561BBCFDB3000DF541 /* TellMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TellMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FC255A1BBCFDB3000DF541 /* TellMeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TellMeUITests.m; sourceTree = "<group>"; };
+		04FC255C1BBCFDB3000DF541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FC25681BBCFE25000DF541 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FC252F1BBCFDB2000DF541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FC25481BBCFDB3000DF541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FC25531BBCFDB3000DF541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04FC25291BBCFDB2000DF541 = {
+			isa = PBXGroup;
+			children = (
+				04FC25341BBCFDB2000DF541 /* TellMe */,
+				04FC254E1BBCFDB3000DF541 /* TellMeTests */,
+				04FC25591BBCFDB3000DF541 /* TellMeUITests */,
+				04FC25331BBCFDB2000DF541 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04FC25331BBCFDB2000DF541 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FC25321BBCFDB2000DF541 /* TellMe.app */,
+				04FC254B1BBCFDB3000DF541 /* TellMeTests.xctest */,
+				04FC25561BBCFDB3000DF541 /* TellMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04FC25341BBCFDB2000DF541 /* TellMe */ = {
+			isa = PBXGroup;
+			children = (
+				04FC25381BBCFDB2000DF541 /* AppDelegate.h */,
+				04FC25391BBCFDB2000DF541 /* AppDelegate.m */,
+				04FC253B1BBCFDB2000DF541 /* ViewController.h */,
+				04FC253C1BBCFDB2000DF541 /* ViewController.m */,
+				04FC253E1BBCFDB2000DF541 /* Main.storyboard */,
+				04FC25411BBCFDB2000DF541 /* Assets.xcassets */,
+				04FC25431BBCFDB3000DF541 /* LaunchScreen.storyboard */,
+				04FC25461BBCFDB3000DF541 /* Info.plist */,
+				04FC25351BBCFDB2000DF541 /* Supporting Files */,
+			);
+			path = TellMe;
+			sourceTree = "<group>";
+		};
+		04FC25351BBCFDB2000DF541 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04FC25361BBCFDB2000DF541 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04FC254E1BBCFDB3000DF541 /* TellMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				04FC254F1BBCFDB3000DF541 /* TellMeTests.m */,
+				04FC25511BBCFDB3000DF541 /* Info.plist */,
+				04FC25681BBCFE25000DF541 /* Person.m */,
+			);
+			path = TellMeTests;
+			sourceTree = "<group>";
+		};
+		04FC25591BBCFDB3000DF541 /* TellMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04FC255A1BBCFDB3000DF541 /* TellMeUITests.m */,
+				04FC255C1BBCFDB3000DF541 /* Info.plist */,
+			);
+			path = TellMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04FC25311BBCFDB2000DF541 /* TellMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FC255F1BBCFDB3000DF541 /* Build configuration list for PBXNativeTarget "TellMe" */;
+			buildPhases = (
+				04FC252E1BBCFDB2000DF541 /* Sources */,
+				04FC252F1BBCFDB2000DF541 /* Frameworks */,
+				04FC25301BBCFDB2000DF541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TellMe;
+			productName = TellMe;
+			productReference = 04FC25321BBCFDB2000DF541 /* TellMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04FC254A1BBCFDB3000DF541 /* TellMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FC25621BBCFDB3000DF541 /* Build configuration list for PBXNativeTarget "TellMeTests" */;
+			buildPhases = (
+				04FC25471BBCFDB3000DF541 /* Sources */,
+				04FC25481BBCFDB3000DF541 /* Frameworks */,
+				04FC25491BBCFDB3000DF541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FC254D1BBCFDB3000DF541 /* PBXTargetDependency */,
+			);
+			name = TellMeTests;
+			productName = TellMeTests;
+			productReference = 04FC254B1BBCFDB3000DF541 /* TellMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04FC25551BBCFDB3000DF541 /* TellMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FC25651BBCFDB3000DF541 /* Build configuration list for PBXNativeTarget "TellMeUITests" */;
+			buildPhases = (
+				04FC25521BBCFDB3000DF541 /* Sources */,
+				04FC25531BBCFDB3000DF541 /* Frameworks */,
+				04FC25541BBCFDB3000DF541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FC25581BBCFDB3000DF541 /* PBXTargetDependency */,
+			);
+			name = TellMeUITests;
+			productName = TellMeUITests;
+			productReference = 04FC25561BBCFDB3000DF541 /* TellMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04FC252A1BBCFDB2000DF541 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Jack;
+				TargetAttributes = {
+					04FC25311BBCFDB2000DF541 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					04FC254A1BBCFDB3000DF541 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 04FC25311BBCFDB2000DF541;
+					};
+					04FC25551BBCFDB3000DF541 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 04FC25311BBCFDB2000DF541;
+					};
+				};
+			};
+			buildConfigurationList = 04FC252D1BBCFDB2000DF541 /* Build configuration list for PBXProject "TellMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04FC25291BBCFDB2000DF541;
+			productRefGroup = 04FC25331BBCFDB2000DF541 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FC25311BBCFDB2000DF541 /* TellMe */,
+				04FC254A1BBCFDB3000DF541 /* TellMeTests */,
+				04FC25551BBCFDB3000DF541 /* TellMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04FC25301BBCFDB2000DF541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FC25451BBCFDB3000DF541 /* LaunchScreen.storyboard in Resources */,
+				04FC25421BBCFDB2000DF541 /* Assets.xcassets in Resources */,
+				04FC25401BBCFDB2000DF541 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FC25491BBCFDB3000DF541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FC25541BBCFDB3000DF541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FC252E1BBCFDB2000DF541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FC253D1BBCFDB2000DF541 /* ViewController.m in Sources */,
+				04FC253A1BBCFDB2000DF541 /* AppDelegate.m in Sources */,
+				04FC25371BBCFDB2000DF541 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FC25471BBCFDB3000DF541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FC25691BBCFE25000DF541 /* Person.m in Sources */,
+				04FC25501BBCFDB3000DF541 /* TellMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FC25521BBCFDB3000DF541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FC255B1BBCFDB3000DF541 /* TellMeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04FC254D1BBCFDB3000DF541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FC25311BBCFDB2000DF541 /* TellMe */;
+			targetProxy = 04FC254C1BBCFDB3000DF541 /* PBXContainerItemProxy */;
+		};
+		04FC25581BBCFDB3000DF541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FC25311BBCFDB2000DF541 /* TellMe */;
+			targetProxy = 04FC25571BBCFDB3000DF541 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04FC253E1BBCFDB2000DF541 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FC253F1BBCFDB2000DF541 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04FC25431BBCFDB3000DF541 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FC25441BBCFDB3000DF541 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04FC255D1BBCFDB3000DF541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04FC255E1BBCFDB3000DF541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04FC25601BBCFDB3000DF541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TellMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jack.TellMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04FC25611BBCFDB3000DF541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TellMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jack.TellMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04FC25631BBCFDB3000DF541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TellMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jack.TellMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TellMe.app/TellMe";
+			};
+			name = Debug;
+		};
+		04FC25641BBCFDB3000DF541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TellMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jack.TellMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TellMe.app/TellMe";
+			};
+			name = Release;
+		};
+		04FC25661BBCFDB3000DF541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TellMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jack.TellMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TellMe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		04FC25671BBCFDB3000DF541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TellMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jack.TellMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TellMe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FC252D1BBCFDB2000DF541 /* Build configuration list for PBXProject "TellMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FC255D1BBCFDB3000DF541 /* Debug */,
+				04FC255E1BBCFDB3000DF541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FC255F1BBCFDB3000DF541 /* Build configuration list for PBXNativeTarget "TellMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FC25601BBCFDB3000DF541 /* Debug */,
+				04FC25611BBCFDB3000DF541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04FC25621BBCFDB3000DF541 /* Build configuration list for PBXNativeTarget "TellMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FC25631BBCFDB3000DF541 /* Debug */,
+				04FC25641BBCFDB3000DF541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04FC25651BBCFDB3000DF541 /* Build configuration list for PBXNativeTarget "TellMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FC25661BBCFDB3000DF541 /* Debug */,
+				04FC25671BBCFDB3000DF541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04FC252A1BBCFDB2000DF541 /* Project object */;
+}
